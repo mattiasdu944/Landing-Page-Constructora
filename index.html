@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== Css Bootstrap ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!--==================== Css ====================-->
+    <link rel="stylesheet" href="assets/Css/styles.css" />
+
+    <title>Constructora</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+
+    <!--========== NAVBAR ==========-->
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container" id="navbar-container">
+          <a class="navbar-brand" href="#">Constructora</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="uil uil-apps" style="color: #e6e6e6;"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <button class="btn" id="main-btn">
+                        Contactar
+                    </button>
+                </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+    <!--========== MAIN ==========-->
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/Images/Casa-1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/Images/Casa-2.jpg"" class=" d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/Images/Casa-3.jpg"" class=" d-block w-100" alt="...">
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 offset-md-3 text-center">
+                            <h1>Constructora</h1>
+                            <p>
+                                Diseñamos y construimos casas, oficinas y edificios de todo
+                                tipo. Contactanos o visitanos en nuestras sucursales en toda
+                                la nacion.
+                            </p>
+                            <button class="btn" id="main-btn">
+                                Contactar
+                                <i class="uil uil-message"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--====================NUESTROs PROYECTOS====================-->
+    <section class="container">
+        <div class="row text-start mt-5 mb-5">
+            <h2>Nuestros Proyectos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <dic class="row">
+            <div class="col-md-4 p-3 m-auto" id="card-equipo" style="width: 25rem">
+                
+                <div id="img-container">
+                    <img src="assets/Images/Edificio-1.jpg" class="card-img-top" id="imagen" alt="..." />
+                </div>
+
+                <div class="card-body text-start">
+                    <h3 class="card-title">01.</h3>
+                    <p>
+                        Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-3 m-auto" id="card-equipo" style="width: 25rem">
+                <div id="img-container">
+                    <img src="assets/Images/edificio-2.jpg" class="card-img-top" id="imagen" alt="..." />
+                </div>
+                <div class="card-body text-start">
+                    <h3 class="card-title">02.</h3>
+                    <p>
+                        Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 p-3 m-auto" id="card-equipo" style="width: 25rem">
+                <div id="img-container">
+                    <img src="assets/Images/Edificio-3.jpg" class="card-img-top" id="imagen" alt="..." />
+                </div>
+                <div class="card-body text-start">
+                    <h3 class="card-title">03.</h3>
+                    <p>
+                        Some representative placeholder content for the three columns of
+                        text below the carousel. This is the first column.
+                    </p>
+                </div>
+            </div>
+        </dic>
+    </section>
+
+
+    
+    
+
+    <!--====================SERVICIOS====================-->
+    <section class="container-fluid">
+        <div class="container mt-5 mb-5 p-3" id="servicios">
+            <div class="row text-center">
+                <h2>Nuestros servicios</h2>
+            </div>
+            <div class="row text-center">
+
+                <div class="col-12 col-md-4 p-4">
+
+                    <div id="servicios-icon">
+                        <i class="uil uil-ruler-combined"></i>
+                    </div>     
+                    <h4>105+ Proyectos</h4>
+                    <p>
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4 p-4">
+                    <div id="servicios-icon">
+                        <i class="uil uil-constructor"></i>
+                    </div>
+                    <h4>50+ Diseños</h4>
+                    <p>
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4 p-4">
+                    <div id="servicios-icon">
+                        <i class="uil uil-shovel"></i>
+                    </div>
+                    <h4>76+ Construcciones</h4>
+                    <p>
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====================OFICINAS====================-->
+    <section class="container-fluid">
+        <div class="container mt-5 mb-5 p-3" id="oficinas">
+            <div class="row text-end">
+                <h2>Nuestras Oficinas</h2>
+            </div>
+            <div class="row m-3 text-end">
+
+                <div class="col-12 col-md-6" id="oficinas-img_container" > 
+                    <img src="assets/Images/oficina-1.jpg" class="img-fluid" id="img-oficinas" alt="...">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3>Oficina - Torres Mall</h3>
+                    <p>
+                        Direccion: Av. Torres Mall, Torre B, Piso 2, Oficina 202
+                        <br>
+                        Teléfono: (55) 5555-5555
+                        <br>
+                        Horario: Lunes a Viernes de 9:00 a 18:00
+                    </p>
+                </div>
+            </div>
+
+            <div class="row m-3 text-end">
+                <div class="col-12 col-md-6" id="oficinas-img_container" > 
+                    <img src="assets/Images/oficina-2.jpg" class="img-fluid" id="img-oficinas" alt="...">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3>Oficina - Torres Mall</h3>
+                    <p>
+                        Direccion: Av. Torres Mall, Torre B, Piso 2, Oficina 202
+                        <br>
+                        Teléfono: (55) 5555-5555
+                        <br>
+                        Horario: Lunes a Viernes de 9:00 a 18:00
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================CONTACTO====================-->
+    <section class="container-fluid">
+        <div class="container" id="Contacto">
+
+            <div class="row text-center mt-5">
+                <h2>Contacto</h2>
+            </div>
+
+            <form class="row" action="" method="POST">
+                <div class="col-12 col-md-6 ">
+                    <div class="mb-3">
+                        <label for="Correo" class="form-label">
+                            <i class="uil uil-envelope"></i>
+                            Correo electronico
+                        </label>
+                        <input type="email" class="form-control w-75"
+                            style="background-color:#3C4657; border:none; color: #e6e6e6;" name="Correo"
+                            id="Correo-input" placeholder="Ingresa tu correo electronico" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Nom_Ap" class="form-label">
+                            <i class="uil uil-user"></i>
+                            Nombres y Apelidos
+                        </label>
+                        <input type="text" class="form-control w-75"
+                            style="background-color:#3C4657; border:none; color: #e6e6e6;" name="Nom_Ap"
+                            id="Nombre-input" placeholder="Ingresa tu nombre completo" required>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn" id="main-btn">
+                            Enviar
+                            <i class="uil uil-message"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="Comentario" class="form-label">Escribe tu siguiente proyecto</label>
+                        <textarea class="form-control" style="background-color:#3C4657; border:none; color: #e6e6e6;"
+                            id="Comentario" name="Comentario" rows="3" required></textarea>
+                    </div>
+                </div>
+
+            </form>
+
+
+
+        </div>
+    </section>
+
+
+    <!--====================FOOTER====================-->
+    <footer class="container-fluid mt-5" id="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 mt-5 mb-2">
+                    <h4>CONTRUCTORA</h4>
+                </div>
+                <div class="col-md-6 mt-5 mb-2 text-end">
+                    <a href="#" id="footer-item"><i class="uil uil-facebook"></i></a>
+
+                    <a href="#" id="footer-item"><i class="uil uil-instagram-alt"></i></a>
+
+                    <a href="#" id="footer-item"><i class="uil uil-linkedin"></i></a>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="row p-3">
+            <center>&copy; Mattias Duarte | Todos los derechos reservados</center>
+        </div>
+
+    </footer>
+
+    <!--==================== Js Bootstrap ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
