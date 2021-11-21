@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: var(--font-bold);
+}
+
+h1{
+    font-size: var(--h1-size);
+}
+h2{
+    font-size: var(--h2-size);
+}
+h3{
+    font-size: var(--h3-size);
+}
+h4{
+    font-size: var(--h4-size);
+}
+
+p{
+    font-weight: var(--font-regular);
+    font-size: var(--text-size);
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+/*====================VARIABLES CSS====================*/
+:root{
+    --font-semi-bold:600;
+    --font-bold:700;
+    --font-regular:200;
+
+    --h1-size:3.5rem;
+    --h2-size:3rem;
+    --h3-size:2.75rem;
+    --h4-size:2.35rem;
+    --text-size:1.3rem;
+
+    --bg-color: #1B212C;
+    --icons-color: #3C4657;
+    --buttons-color: #F64B29;
+    --hover-color: #F64B29;
+    --text-color: #e6e6e6;
+
+    --img-height: 55vh;
+}
+
+/*====================MEDIA QUERYS====================*/
+@media screen and (max-width: 576px){
+    :root{
+
+        --h1-size:2.75rem;
+        --h2-size:2.5rem;
+        --h3-size:2rem;
+        --h4-size:1.5rem;
+        --text-size:0.85rem;
+
+        --img-height: 35vh;
+
+    }
+}
+
+/*====================NAV====================*/
+nav{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: var(--bg-color);
+}
+
+#navbar-container a{
+    color: var(--text-color);
+}
+#navbar-container a:hover{
+    transition: all 0.3s ease-in-out;
+    color: var(--hover-color);
+}
+
+
+/*====================MAIN====================*/
+
+#main .carousel-inner img{
+    max-height: 95vh;
+    object-fit: cover;   
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    color: var(--text-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+#carousel .overlay .container, 
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#main-btn{
+    color: var(--text-color);
+    background-color: var(--buttons-color);
+}
+#main-btn:hover{
+    color: var(--text-color);
+    background-color:#e24222
+
+}
+
+/*====================PROYECTOS====================*/
+#card-equipo img{
+    max-height: 20vh;
+    object-fit: cover;   
+}
+#img-container{
+    width: 100%;
+    overflow: hidden;
+}
+#img-container #imagen{
+    width: 100%;
+    height: 100%;
+    transition:  0.3s;
+}
+#img-container:hover #imagen{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+/*====================SERVICIOS====================*/
+#servicios{
+    background-color: var(--icons-color);
+    border-radius: 10px;
+}
+
+#servicios-icon i{
+    color: var(--buttons-color);
+    font-size: 100px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#oficinas-img_container{    
+    overflow: hidden;
+    max-height: 40vh;
+    object-fit: cover;   
+}
+
+
+/*====================FOOTER===================*/
+footer{
+    
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#footer-item{
+    margin: 0 10px;
+    color: var(--buttons-color);
+    font-size: 2rem;
+    
+}
