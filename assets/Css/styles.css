@@ -74,6 +74,19 @@ body{
     }
 }
 
+@media screen and (max-width: 325px){
+    :root{
+
+        --h1-size:2rem;
+        --h2-size:1.75rem;
+        --h3-size:1.5rem;
+        --h4-size:1.25rem;
+        --text-size:0.85rem;
+
+        --img-height: 35vh;
+
+    }
+}
 /*====================NAV====================*/
 nav{
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
@@ -175,6 +188,5 @@ footer{
 #footer-item{
     margin: 0 10px;
     color: var(--buttons-color);
-    font-size: 2rem;
-    
+    font-size: 2rem; 
 }
